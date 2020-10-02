@@ -1,1 +1,1 @@
-old-code
+This repo contains all of our team's past robot code (at least since FTC started using android phones). It is listed by season, with some folders containing just the team code while others contain entire SDK's.

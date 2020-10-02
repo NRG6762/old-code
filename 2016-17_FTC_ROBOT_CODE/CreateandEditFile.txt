@@ -1,0 +1,13 @@
+File headingText = new File("/sdcard/FIRST/heading.txt");
+  
+//Create the file
+if (headingText.createNewFile()){
+System.out.println("File is created!");
+}else{
+System.out.println("File already exists.");
+}
+ 
+//Write Content
+FileWriter writer = new FileWriter(headingText);
+writer.write(heading);
+writer.close();
